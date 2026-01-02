@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [29.03460, 30.96925],
+          [29.03452, 30.96920],
+          [29.03442, 30.96918],
+          [29.03438, 30.96912],
+          [29.03445, 30.96908],
+          [29.03454, 30.96909],
+          [29.03462, 30.96914],
+          [29.03466, 30.96920],
+          [29.03460, 30.96925]
+        ]]
+      },
+      "properties": {
+        "id": "P2_RefinedDeepZone01",
+        "depth_min_m": 25,
+        "depth_max_m": 45,
+        "resistivity_ohmm": 10000,
+        "host_ohmm": 300,
+        "confidence_phase2": 0.98,
+        "source": "Abbas et al. 2013 – Refined from Fig.5–8 (20×15 m SW resistive); Updated with 2025 tunnel alignment"
+      }
+    }
+  ]
+}
