@@ -1,0 +1,33 @@
+DeepDive-Cleopatra | Setup Instructions
+---------------------------------------
+
+Thank you for exploring **Deep Dive I: Cleopatra’s Tomb – AI Geophysical Pipeline**
+
+📁 Folders
+- code/        → Python scripts for simulation, certainty scoring, and map generation
+- data/        → GeoJSON and reference survey data
+- docs/        → Technical brief + proposal email
+- visuals/     → Infographic and maps
+- README.md    → Main project documentation
+
+💻 Requirements
+Python 3.10+ and these packages:
+  numpy
+  matplotlib
+(Optional)
+  shapely
+  folium
+
+⚙️ How to Run
+1. Open a terminal in the `DeepDive-Cleopatra` directory.
+2. Run the muon simulation:
+     python code/muon_tomo_sim.py
+3. Compute certainty:
+     python code/confidence_model.py
+4. Generate the map (optional):
+     python code/make_phase2_preview_map.py
+
+📬 GitHub Upload Workflow
+- Upload each folder individually if using Android Chrome
+- Verify structure matches README view
+- Add meaningful commit messages
